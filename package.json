@@ -1,0 +1,22 @@
+{
+  "name": "instant_word_search",
+  "version": "1.0.0",
+  "description": "Search of a word on different websites",
+  "main": "main.js",
+  "bin": {
+    "instant_word_search": "./main.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "node config.js",
+    "start": "node main.js"
+  },
+  "author": "Pamparau Sebastian <pamparau.sebastian@gmail.com>",
+  "license": "LGPL-3.0-or-later",
+  "dependencies": {
+    "decompress": "^4.2.1",
+    "follow-redirects": "^1.15.2",
+    "prompt-sync": "^4.2.0",
+    "puppeteer": "^21.1.0"
+  }
+}
